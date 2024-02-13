@@ -1,0 +1,40 @@
+/* You can add global styles to this file, and also import other style files */
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+@import url('https://fonts.googleapis.com/css2?family=Doppio+One&family=Poppins:wght@400;500&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Doppio One', sans-serif;
+    font-family: 'Poppins', sans-serif;
+  }
+  body,
+  html {
+    height: 100%;
+    overflow-x: hidden;
+    overflow-y: auto;
+    margin: 0;
+    padding: 0;
+    background-color: #FFF;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+body h1, h2, h3, h4, h5, h6{
+    font-family: 'Doppio One', sans-serif !important;
+}
+
+.font-poppins{
+    font-family: 'Poppins', sans-serif; 
+}
+
+.font-doppio{
+    font-family: 'Doppio One', sans-serif;
+}
