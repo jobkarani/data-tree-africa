@@ -11,8 +11,6 @@ const routes: Routes = [
     redirectTo: 'home'
   },
   {path:'home',component:LandingPageComponent},
-  // {path:'solutions',component:SolutionsComponent},
-  // {path:'about',component:DataSenseComponent},
 ];
 
 @NgModule({
