@@ -11,6 +11,7 @@ import { SolutionsComponent } from './solutions/solutions.component';
 import { EmpowerComponent } from './empower/empower.component';
 import { ContactUsComponent } from './contact-us/contact-us.component';
 import { FooterComponent } from './footer/footer.component';
+import { LoaderComponent } from './loader/loader.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +23,8 @@ import { FooterComponent } from './footer/footer.component';
     SolutionsComponent,
     EmpowerComponent,
     ContactUsComponent,
-    FooterComponent
+    FooterComponent,
+    LoaderComponent
   ],
   imports: [
     BrowserModule,
