@@ -2,7 +2,6 @@ import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { provideLottieOptions } from 'ngx-lottie';
 
 import { LandingPageComponent } from './landing-page/landing-page.component';
 import { NavbarComponent } from './navbar/navbar.component';
@@ -29,11 +28,7 @@ import { FooterComponent } from './footer/footer.component';
     BrowserModule,
     AppRoutingModule
   ],
-  providers: [
-    provideLottieOptions({
-      player: () => import('lottie-web'),
-    }),
-  ],
+  providers: [],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
