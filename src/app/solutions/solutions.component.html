@@ -4,7 +4,7 @@
 
     <div class="md:flex md:justify-center">
         <ul class="md:w-1/4 flex-column space-y space-y-4 text-sm font-medium md:me-4 mb-4 md:mb-0">
-          <li *ngFor="let tab of ['01 Powerful Data & Analytics', '02 Data Publishing', '03 Data Tools', '04 Cloud Solutions']" class="font-doppio xl:text-lg md:text-md text-sm font-[700]">
+          <li *ngFor="let tab of ['01 Powerful Data & Analytics', '02 Data Tools', '03 Cloud Solutions']" class="font-doppio xl:text-lg md:text-md text-sm font-[700]">
             <a
               [class.active]="selectedTab === tab"
               (click)="onTabClick(tab)"
