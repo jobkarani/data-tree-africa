@@ -1,17 +1,17 @@
 <div id="solutions" class="flex flex-col gap-[41px] xl:py-[92px] md:py-[92px] py-[40px] xl:px-[107px] md:px-[60px] px-[30px]">
     <p class="font-doppio xl:text-4xl md:text-4xl text-2xl text-[#434343] font-[700]">Our Solutions</p>
-    <p class="font-poppins xl:text-lg md:text-md text-sm text-[#434343] font-[400]">At  Data Tree Africa, we empower partners with a dynamic ecosystem of data-driven solutions, enabling them to transform their businesses. From accessing high-quality data to  actionable insights and leveraging cloud solutions, we provide the tools and infrastructure to maximize your data's potential.</p>
+    <p class="font-poppins xl:text-lg md:text-md text-sm text-[#434343] font-[400]">At Data Tree Africa, we empower you with a dynamic ecosystem of data-driven solutions. From accessing high-quality data to actionable insights and leveraging cloud solutions, we provide the tools and infrastructure to maximize your data's potential.</p>
 
     <div class="md:flex md:justify-center">
         <ul class="md:w-1/4 flex-column space-y space-y-4 text-sm font-medium md:me-4 mb-4 md:mb-0">
-          <li *ngFor="let tab of ['01 Data Insights', '02 Data Publishing', '03 Data Tooling', '04 Cloud Solutions']" class="font-doppio xl:text-lg md:text-md text-sm font-[700]">
+          <li *ngFor="let tab of ['01 Powerful Data & Analytics', '02 Data Publishing', '03 Data Tools', '04 Cloud Solutions']" class="font-doppio xl:text-lg md:text-md text-sm font-[700]">
             <a
               [class.active]="selectedTab === tab"
               (click)="onTabClick(tab)"
               class="inline-flex justify-between items-center text-[#42424251] [&.active]:text-[#434343] border-b-2 border-[#42424251] [&.active]:border-[#434343] px-4 py-3 w-full dark:hover:text-white"
             >
               {{ tab | titlecase }} 
-              <i class="ml-12 fa-solid fa-arrow-right"></i>
+              <i class="ml-2 fa-solid fa-arrow-right"></i>
             </a>
           </li>
         </ul>
