@@ -1,8 +1,6 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
-import { LandingPageComponent } from './landing-page/landing-page.component';
-import { SolutionsComponent } from './solutions/solutions.component';
-import { DataSenseComponent } from './data-sense/data-sense.component';
+import { HomeComponent } from './home/home.component';
 
 const routes: Routes = [
   {
@@ -10,7 +8,7 @@ const routes: Routes = [
     pathMatch: 'full',
     redirectTo: 'home'
   },
-  {path:'home',component:LandingPageComponent},
+  {path:'home',component:HomeComponent},
 ];
 
 @NgModule({
